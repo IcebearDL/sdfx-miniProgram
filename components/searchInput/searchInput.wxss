@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8rpx 28rpx;
+  border-radius: 30rpx;
+  background-color: #F2F2F2;
+}
+
+.searchBar-input{
+  color: #272727;
+  font-size: 26rpx;
+  flex-grow: 1;
+  margin-left: 16rpx;
+}

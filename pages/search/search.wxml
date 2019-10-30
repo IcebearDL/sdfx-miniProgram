@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="search-container">
+    <searchInput 
+      style="flex-grow:1" 
+      placeholder="请输入项目名或项目关键词"
+      bind:dispatchInput="getSearchResult"
+    />
+    <text class="search-cancel" bindtap="cancelSearch">取消</text>
+  </view>
+  <text>{{inputValue}}</text>
+</view>

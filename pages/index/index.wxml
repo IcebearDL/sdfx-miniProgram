@@ -1,0 +1,42 @@
+<view class="container">
+  <view class="search-container" bindtap="navigateToPage" data-url="/pages/search/search">
+    <icon type="search" size="40rpx" color="#545454"/>
+    <input 
+      type="search"
+      class="search-container-input"
+      placeholder="请输入搜索的投资项目" 
+      placeholder-style="color:#858585"
+      disabled="true"
+    >
+    </input>
+  </view>
+</view>
+<view class="header-content">
+  <view class="header-content-item" 
+    bindtap="navigateToPage" 
+    data-url="/pages/latestProjects/latestProjects"
+  >
+    <view>
+      <image class="header-content-img" src="/images/index/new.svg"></image>
+    </view>
+    <text>最新上线</text>
+  </view>
+  <view class="header-content-item"
+    bindtap="navigateToPage" 
+    data-url="/pages/recommendProjects/recommendProjects"
+  >
+    <view>
+      <image class="header-content-img" src="/images/index/diamond.svg"></image>
+    </view>
+    <text>小蓝AI推荐</text>
+  </view>
+  <view class="header-content-item"
+    bindtap="navigateToPage" 
+    data-url="/pages/businessman/businessman"
+  >
+    <view>
+      <image class="header-content-img" src="/images/index/team.svg"></image>
+    </view>
+    <text>优质创业者</text>
+  </view>
+</view>

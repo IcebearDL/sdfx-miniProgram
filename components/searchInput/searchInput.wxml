@@ -1,0 +1,22 @@
+<view class="container" >
+  <icon type="search" size="40rpx" color="#545454"/>
+  <input 
+    type="text"
+    confirm-type="search"
+    focus="true"
+    value="{{inputValue}}"
+    class="searchBar-input"
+    placeholder="{{placeholder}}" 
+    placeholder-style="color:#858585"
+    bindinput="bindInput"
+    bindconfirm="bindconfirm"
+  >
+  </input>
+  <icon
+      type="clear" 
+      wx:if="{{ifClearButton}}" 
+      size="40rpx" 
+      color="#B6B6B6"
+      bindtap="clearInputValue"
+    />
+</view>
